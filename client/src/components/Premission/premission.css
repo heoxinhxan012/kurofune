@@ -1,0 +1,61 @@
+.btn-pre {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-image: linear-gradient(
+    to right,
+    #e5627c 50%,
+    #c471ed 50%,
+    #6a82fb
+  );
+  background-position: 0%;
+  background-size: 200%;
+  transition: 0.4s;
+}
+.pre-create-pre {
+  display: flex;
+  background-color: rgb(118, 118, 118);
+}
+.btn-cre-item {
+  margin-bottom: 6px;
+  margin-left: 10px;
+}
+.create-pre {
+  margin: 5px 20px;
+}
+.pre-create-pre h3 {
+  margin-left: 20px;
+  margin-top: 8px;
+  color: aliceblue;
+}
+.btn-pre:hover {
+  background-position: 100% 0%;
+}
+.list {
+  position: relative;
+  line-height: 36px;
+  font-size: 18px;
+  display: flex;
+}
+.list-item {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.list-btn {
+  position: absolute;
+  left: 88%;
+}
+.btn-right {
+  margin-right: 16px;
+}
+.save {
+  float: right;
+  margin-top: 20px;
+  margin-right: 96px;
+  padding: 0 14px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}

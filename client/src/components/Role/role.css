@@ -1,0 +1,56 @@
+.role {
+  height: 120px;
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+.role-tab {
+  position: relative;
+  top: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-img {
+  position: relative;
+  width: 120px;
+  bottom: 34px;
+  border-radius: 50%;
+  image-rendering: pixelated;
+}
+.role-text:hover {
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.role-select {
+  width: 600px;
+}
+.role-btn {
+  position: relative;
+  display: flex;
+}
+.role-btn .role-btn-show button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    #ef6c87 50%,
+    #c471ed 50%,
+    #6a82fb
+  );
+  background-position: 0%;
+  background-size: 200%;
+  transition: 0.4s;
+}
+.role-btn button:first-child {
+  margin-right: 20px;
+}
+.role-btn button i {
+  color: rgb(41, 30, 38);
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+.role-btn button:hover {
+  background-position: 100% 0%;
+}
